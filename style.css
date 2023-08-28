@@ -1,6 +1,5 @@
 .thumbnail {
-  width: 438px;
-  display: block;
+  width: 100%;
 }
 
 .search-bar {
@@ -21,7 +20,7 @@ p {
   margin-top: 12px;
 }
 
-.video-author { 
+.video-author {
   font-size: 12px;
   color: #606060;
   margin-top: 8px;
@@ -32,31 +31,20 @@ p {
   margin-bottom: 16px;
 }
 
-.video-preview {
-  vertical-align: top;
-  width: 438px;
-  margin-top: 10px;
-  margin-right: 10px;
-  display: inline-block
-}
-
 .channel-photo {
   width: 40px;
   border-radius: 36px;
   margin-top: 12px;
 }
 
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+
 .video-info-grid {
-  width: 438px;
-}
-
-.channel-photo-div {
-  vertical-align: top;
-  display: inline-block;
-}
-
-.video-info-div {
-  vertical-align: top;
-  display: inline-block;
-  width: 390px;
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
