@@ -5,4 +5,7 @@ p {
 
 body {
   margin: 0px;
+  padding-top: 80px;
+  padding-bottom: 200px;
+  padding-left: 80px;
 }
